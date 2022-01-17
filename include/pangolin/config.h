@@ -24,9 +24,9 @@
 
 #define HAVE_DC1394
 #define HAVE_V4L
-#define HAVE_OPENNI
+/* #undef HAVE_OPENNI */
 /* #undef HAVE_LIBREALSENSE */
-#define HAVE_OPENNI2
+/* #undef HAVE_OPENNI2 */
 /* #undef HAVE_UVC */
 /* #undef HAVE_DEPTHSENSE */
 /* #undef HAVE_TELICAM */
@@ -52,7 +52,7 @@
 #define HAVE_JPEG
 #define HAVE_TIFF
 #define HAVE_OPENEXR
-/* #undef HAVE_ZSTD */
+#define HAVE_ZSTD
 
 /// Platform
 #define _UNIX_
